@@ -28,7 +28,7 @@
 
 #### System Requirements
 
-* **OS:** Windows 10/11 (64-bit) or macOS 12+
+* **OS:** Windows 10/11
 * **RAM:** 4 GB minimum (8 GB recommended for Live Computer browser automation)
 * **Internet:** Required for cloud LLM providers and Composio connectors (works offline with local Ollama models)
 
