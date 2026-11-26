@@ -1,0 +1,20 @@
+Copyright (c) 2026 Viyra. All Rights Reserved. 
+
+PROPRIETARY AND CLOSED-SOURCE SOFTWARE LICENSE AGREEMENT 
+
+1. Ownership & Intellectual Property:
+Viyra (including all compiled binaries, executable packages, user interface designs, living character avatars, visual assets, workflows, and documentation) is the sole and exclusive proprietary property of its creator ("Author"). Viyra is closed-source software and is NOT licensed under any open-source license.
+2. Grant of License:
+Subject to your compliance with this Agreement, the Author grants you a personal, worldwide, royalty-free, non-exclusive, non-transferable, and revocable license to download, extract, and run the official compiled binary releases of Viyra ("Beta 1.0" and subsequent official releases) solely for personal or internal business use.
+3. Strict Restrictions:
+You shall NOT, directly or indirectly:
+
+* Reverse engineer, decompile, disassemble, unpack, or otherwise attempt to derive or extract the source code, underlying algorithms, prompts, or internal architecture of Viyra.
+* Modify, adapt, translate, patch, or create derivative works based upon Viyra or any part of its assets.
+* Redistribute, mirror, sublicense, rent, lease, sell, or commercially host Viyra binaries without the Author's prior explicit written consent.
+* Remove, obscure, or alter any copyright notices, trademarks, or proprietary branding embedded in the software.
+
+1. Third-Party Services & User Responsibility:
+Viyra enables users to connect their own third-party API keys (such as LLM providers, SerpAPI, and Composio). You are solely responsible for complying with the terms of service of any third-party providers you connect and for reviewing actions approved through Viyra's authorization prompts.
+2. Disclaimer of Warranty & Limitation of Liability:
+THIS SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THIS SOFTWARE.
