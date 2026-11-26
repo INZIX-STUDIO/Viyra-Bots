@@ -17,7 +17,7 @@
 #### Installation & Quick Start (Beta 1.0 Portable)
 
 1. Navigate to the [**Releases**](../../releases/latest) section of this repository.
-2. Download **Viyra-Beta-1.0-Portable.zip**.
+2. Download **viyra_bots_windows_beta_1.0.zip**.
 3. Extract the archive to any folder on your computer.
 4. Launch **Viyra.exe** (Windows) or **Viyra.app** (macOS).
 5. Follow the quick Apple-style onboarding setup: 
