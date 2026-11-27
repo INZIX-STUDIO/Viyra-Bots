@@ -1,6 +1,6 @@
 # Viyra Bots Beta 1.0
 
-**A multi-agent desktop workspace for Windows.** Create specialized AI agents, let them delegate tasks, and follow their work in a live browser.
+**A local-first, multi-agent desktop workspace for Windows.** Create specialized AI agents, let them delegate tasks, and follow their work in a live browser.
 
 [Download the Windows beta](https://github.com/INZIX-STUDIO/Viyra-Bots/releases/tag/Viyra-Bots-Beta-Public-Preview) · [Report a bug or suggest a feature](https://github.com/INZIX-STUDIO/Viyra-Bots/issues) · [License](./LICENSE)
 
@@ -44,7 +44,7 @@ A matching digest checks that the file matches the published asset; it does not 
 
 ## Privacy and external services
 
-Viyra is described as a local-first workspace. Depending on the features you use, information may be sent to your chosen AI provider, SerpAPI, Composio, or connected services; providing API credentials does not by itself mean that all user data is shared. The public repository does not establish exactly what is stored locally, what is sent to each service, or how credentials are handled. Review each service's terms and privacy policy, and review authorization prompts before approving actions. Local-first design is not a guarantee of complete privacy or security.
+Viyra is a local-first application that runs on your computer. When you use an external service, information may be sent to the provider you configured for that service; entering API credentials does not mean all your data is shared. Whether a provider shares data further depends on its own practices and policies, and it may not share it at all. The public repository does not establish exactly what is stored locally, what is sent to each service, or how credentials are handled. Review each service's terms and privacy policy, and review authorization prompts before approving actions. Local-first design is not a guarantee of complete privacy or security.
 
 ## Feedback and contributions
 
