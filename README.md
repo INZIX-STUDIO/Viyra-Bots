@@ -1,42 +1,57 @@
-#### Viyra Beta 1.0 — Self-Evolving Multi-Agent AI Desktop Workspace
+# Viyra Bots Beta 1.0
 
-**Proprietary Software Notice:** **Viyra** is **closed-source software**. This repository is dedicated exclusively to official compiled desktop releases, product documentation, and user feedback. Source code is private and all rights are reserved. Please review the [LICENSE](./LICENSE) file before downloading or using the software. 
+**A local-first, multi-agent desktop workspace for Windows.** Create specialized AI agents, let them delegate tasks, and follow their work in a live browser.
 
-**Viyra** is a sleek, local-first multi-agent desktop application built for clarity, autonomy, and real execution. Combining an Apple-inspired minimalist interface, living interactive agent avatars, and a local browser & tool runtime, Viyra turns your computer into an autonomous workspace where specialized AI agents collaborate, learn, and execute tasks directly on your machine. 
+[Download the Windows beta](https://github.com/INZIX-STUDIO/Viyra-Bots/releases/tag/Viyra-Bots-Beta-Public-Preview) · [Report a bug or suggest a feature](https://github.com/INZIX-STUDIO/Viyra-Bots/issues) · [License](./LICENSE)
 
-#### What's Inside Beta 1.0
+> **Beta and closed source:** This repository hosts official compiled releases, documentation, and feedback. The application's source code is private. Read the [license](./LICENSE) before using the software.
 
-* **Multi-Agent Architecture & Full Isolation:** Create and run multiple specialized agents (such as CEO, researchers, and executive assistants) with distinct roles, living interactive avatars, dynamic chat color themes, and strictly isolated parallel execution states.
-* **Autonomous Agent-to-Agent Delegation:** Agents communicate in isolated coordination threads (Messaged), delegate actionable tasks to one another, and execute real workflows independently in their own sessions.
-* **Self-Evolving Engine (Auto-Reflection):** Agents analyze completed tasks and rejected actions to generate their own operational rules (Self-Evolved Rules), automatically upgrading their version (v1.0 → v1.1 → v1.2) with a complete timeline and rollback support.
-* **Live Computer & Event-Driven Browser Watchers:** Watch your agents operate a real browser live, write custom page scripts, and enter **Zero-Token Idle Watching** mode—waking up automatically only when new incoming messages or page events occur.
-* **1,500+ App Connectors via Composio:** Seamlessly connect **Google Calendar**, **Gmail**, **Google Drive**, **Notion**, **GitHub**, **Slack**, and more using OAuth, safeguarded by human-in-the-loop Authorization approval cards for sensitive actions.
-* **Bring Your Own Keys (100% Local Privacy):** Compatible with any OpenAI-compatible API (OpenAI, Gemini, DeepSeek, OpenRouter, or local Ollama), plus optional SerpAPI web search. All chats, memories, and browser sessions stay 100% private on your local device.
-* **Refined Light & Dark Modes:** Built with a macOS-inspired settings experience, dynamic chat font scaling, and adaptive dark mode character protection.
+## What Viyra offers
 
-#### Installation & Quick Start (Beta 1.0 Portable)
+- **Multiple specialized agents:** Create agents with different roles and isolated execution sessions.
+- **Agent delegation:** Agents can coordinate and delegate tasks to one another.
+- **Self-evolved rules:** Agents can reflect on completed tasks and rejected actions, with a version timeline and rollback.
+- **Live browser and watchers:** Follow browser work and configure page-event watchers.
+- **Your choice of provider:** Configure an OpenAI-compatible provider or a local Ollama model. SerpAPI and Composio integrations are optional.
+- **Connected apps:** Use Composio to connect supported services, with authorization prompts for sensitive actions.
 
-1. Navigate to the [**Releases**](../../releases/latest) section of this repository.
-2. Download **viyra_bots_windows_beta_1.0.zip**.
-3. Extract the archive to any folder on your computer.
-4. Launch **Viyra.exe** (Windows) or **Viyra.app** (macOS).
-5. Follow the quick Apple-style onboarding setup: 
+## Get started on Windows
 
-  * Enter your preferred AI provider Base URL and API Key.
-  * *(Optional)* Add your SerpAPI key for live search and Composio key for external app connectors.
-  * Create your first living agent and start working immediately.
+**Requirements:** Windows 10 or 11; 4 GB RAM minimum (8 GB recommended for browser automation). Internet is needed for cloud AI providers and online integrations. Local models require a working local model setup.
 
-#### System Requirements
+1. Open the [Beta 1.0 public preview](https://github.com/INZIX-STUDIO/Viyra-Bots/releases/tag/Viyra-Bots-Beta-Public-Preview).
+2. Under **Assets**, download **viyra_bots_windows_beta_1.0.zip**.
+3. Extract the ZIP to a folder on your computer and run **Viyra.exe**.
+4. In onboarding, enter your AI provider's base URL and API key. Optionally add SerpAPI or Composio credentials, then create your first agent.
 
-* **OS:** Windows 10/11
-* **RAM:** 4 GB minimum (8 GB recommended for Live Computer browser automation)
-* **Internet:** Required for cloud LLM providers and Composio connectors (works offline with local Ollama models)
+The current published beta asset is for Windows. A macOS download is not provided in this release.
 
-#### Feedback & Bug Reports
+### Optional: verify the download
 
-Found an issue or have a feature idea for Beta 1.0? Open an issue in the [**Issues**](../../issues) tab with steps to reproduce. 
+In PowerShell, run the following in the folder containing the downloaded ZIP:
 
-#### Copyright & License
+```powershell
+Get-FileHash .\viyra_bots_windows_beta_1.0.zip -Algorithm SHA256
+```
 
-Copyright © 2026 **Viyra**. All Rights Reserved.
-Viyra is closed-source proprietary software. Unauthorized copying, reverse engineering, decompilation, modification, or redistribution of the compiled binaries is strictly prohibited. See [LICENSE](./LICENSE) for full legal terms.
+For this Beta 1.0 asset, compare the result with the SHA-256 digest shown by GitHub on the release asset:
+
+```
+1f10640f6b69a99a498c0bf403c59034729de815943e02f004fc979c1f01251c
+```
+
+A matching digest checks that the file matches the published asset; it does not establish that the software is safe.
+
+## Privacy and external services
+
+Viyra is designed as a local-first workspace, and the beta documentation says chats, memories, and browser sessions are stored locally. If you use a cloud AI provider, web search, or a connected app, information needed for that service may be sent to the relevant provider. Review its terms and privacy policy, and review authorization prompts before approving actions. Local storage is not a guarantee of complete privacy or security.
+
+## Feedback and contributions
+
+For a bug or feature request, [open an issue](https://github.com/INZIX-STUDIO/Viyra-Bots/issues). For bugs, include the beta version, Windows version, steps to reproduce, expected and actual behavior, and any relevant error message. Remove API keys, personal information, and sensitive screenshots before posting.
+
+This is a closed-source release repository; source-code contributions are not available here. Feedback and documentation improvements are welcome.
+
+## License
+
+Copyright © 2026 Viyra. All rights reserved. Viyra is proprietary, closed-source software; see [LICENSE](./LICENSE) for the terms.
